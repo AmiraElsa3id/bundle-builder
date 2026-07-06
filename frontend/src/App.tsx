@@ -15,7 +15,7 @@ function ProductsStepBody({ step }: { step: StepConfig }) {
   const dispatch = useConfigDispatch();
 
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(340px,1fr))] gap-4">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-[repeat(auto-fill,minmax(340px,1fr))]">
       {step.products!.map((product) => (
         <ProductCard
           key={product.id}
