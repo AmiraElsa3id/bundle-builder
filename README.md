@@ -2,6 +2,10 @@
 
 A 4-step accordion "bundle builder" (security-camera system, Wyze-branded placeholder data) with a live order-review panel, built from a Figma design as a working React + Express prototype.
 
+## Demo
+
+[bundle-builder-lovat.vercel.app](https://bundle-builder-lovat.vercel.app)
+
 ## Quick start
 
 ```
