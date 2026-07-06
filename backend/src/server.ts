@@ -10,11 +10,11 @@ const catalog = JSON.parse(readFileSync(join(__dirname, "data/catalog.json"), "u
 const app = express();
 app.use(cors());
 
-app.get("/api/health", (_req, res) => {
+app.get("/health", (_req, res) => {
   res.json({ status: "ok" });
 });
 
-app.get("/api/catalog", (_req, res) => {
+app.get("/catalog", (_req, res) => {
   res.json(catalog);
 });
 
